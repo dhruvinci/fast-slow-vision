@@ -125,7 +125,3 @@ public); `RS` is that folder's `RESEARCH_SUMMARY.md` (compiled 2026-09-28). Line
 | 82.0 / 70.9 / 75.6% accuracy; macro recalls; ms per crop | `encoder_comparison/RESULTS.md`:11-13 |
 | 15/18 seated, 20/30 crouched; 99/102 upright, 21/22 lying | `encoder_comparison/RESULTS.md`:15 |
 | 260-parameter head, PCA 64 | `encoder_comparison/RESULTS.md`:35 |
-| four clips, 96 frames, 28 scored | `spatial_encoder_comparison/RESULTS.md`:7 |
-| IoU 45.6 / 45.5 / 57.1%; macro recall; contact 60.5 / 50.2 / 31.3% | `spatial_encoder_comparison/RESULTS.md`:13-15 |
-| spatial-removal control 3.1 / 6.0 / 3.1% | `spatial_encoder_comparison/RESULTS.md`:34-36 |
-| 24,738 parameters; 36 fits | `spatial_encoder_comparison/RESULTS.md`:44 |

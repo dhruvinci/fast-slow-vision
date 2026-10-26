@@ -53,8 +53,6 @@ or published dataset annotations, not human ground truth.
 - Under identical crops and head, DINOv2-small reached 82.0% posture accuracy, the Qwen3.8 tower 75.6% and Laya's
   (SmolVLM) tower 70.9%; Qwen had the best pooled macro recall (74.2%) and DINOv2 was fastest (14.4 ms per crop).
   ([E08](experiments/E08-encoder-comparison/))
-- Fusing DINOv2 and Qwen raised sparse actor overlap (45.6% → 57.1%) but cut reviewed contact ownership
-  (60.5% → 31.3%). ([E08](experiments/E08-encoder-comparison/))
 
 ## 2026-10-26 (while preparing this repository)
 - Laya Vision's language model also differs from SmolVLM's in all 272 tensors (relative L2 difference 0.85%); the

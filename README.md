@@ -91,8 +91,8 @@ human ground truth.
 - **Wikimedia Commons** videos (CC BY, CC BY-SA, CC0 and US-government public domain; each file's licence was
   recorded) and **DVIDS** public-domain combatives footage, for the fighting pilots.
 - **Bus Violence** (Zenodo record 7044203; attribution, non-commercial), simulated bus-camera clips.
-- Jiu-jitsu frames from instructional and match footage whose redistribution terms are unclear (pilot and spatial
-  comparison only).
+- Jiu-jitsu frames: a CC-licensed public instructional set, plus a few private clips (Kakashi product videos and local
+  matches) in the pilot. Private clips are never shown, and results measured only on them are withheld.
 - **Models:** Laya Vision (above); SmolVLM-256M-Instruct (Apache-2.0); DINOv2-small (Apache-2.0); the vision tower of
   Qwen3.8-27B (open weights; only the tower was run); YOLOX-M and RTMPose-M (via rtmlib).
 - **Labels:** the posture, contact and fighting labels are answers from a frontier AI model run as a blind reviewer,

@@ -5,7 +5,7 @@
 plain probe on its frozen image features do as well?
 
 **Setup.**
-- 528 questions over 95 windows (263 images, 29 source groups) of jiu-jitsu frames and UT-Interaction clips: posture,
+- 528 questions over 95 windows (263 images, 29 source groups) of jiu-jitsu frames (a few from private clips, not shown) and UT-Interaction clips: posture,
   contact, limb ownership, torso angle, motion. References: the 454 questions two blind AI-reviewer runs agreed on.
   Test: 92 questions from 5 groups, 36 of them posture. Splits and budgets frozen before fitting.
 - Backbone frozen. Coarse posture head; posture + relations head (same start, extra auxiliary updates); a probe on

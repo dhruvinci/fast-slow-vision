@@ -210,21 +210,6 @@ def charts(plt, out):
     ax.legend(fontsize=8, ncol=3, loc='upper center', bbox_to_anchor=(0.5, -0.2))
     save(fig, 'chart_encoders_posture.png')
 
-    # E08 spatial ownership, 4 grappling clips, source held out. spatial_encoder_comparison/RESULTS.md:13-15
-    rep = ['DINOv2-small', 'Qwen3.8 tower', 'DINO + Qwen']
-    vals = {'actor overlap (sparse IoU)': [45.6, 45.5, 57.1], 'macro recall': [73.6, 73.7, 80.9],
-            'contact ownership': [60.5, 50.2, 31.3]}
-    fig, ax = plt.subplots(figsize=(6.6, 3.3))
-    for k, (name, c) in enumerate(zip(vals, (BLUE, ORANGE, AQUA))):
-        bars = ax.bar(x + (k - 1) * 0.26, vals[name], 0.24, color=c, label=name)
-        label_bars(ax, bars, '{:.0f}', pad=0.8, size=7.5)
-    ax.set_xticks(x, rep, fontsize=8.5)
-    ax.set_ylim(0, 100)
-    ax.set_ylabel('% (sparse AI references)')
-    ax.set_title('Who owns each pixel: fusion helps body cores, hurts contact', fontsize=10.5)
-    ax.legend(fontsize=8, ncol=3, loc='upper center', bbox_to_anchor=(0.5, -0.12))
-    save(fig, 'chart_encoders_spatial.png')
-
 
 def component_diagram(plt, out):
     """E04: which parts of the released Laya Vision checkpoint differ from public SmolVLM-256M-Instruct.

@@ -16,7 +16,7 @@ not human ground truth.
 | [E05](E05-limb-pair-movement/) | Hip-relative movement of wrists and ankles | named joints **fail**; limb-pair midpoints **pass** (error −62% vs no movement) |
 | [E06](E06-temporal-completion/) | Does a learned temporal adapter fill hidden poses better than interpolation? | **fail** (interpolation selected in both runs) |
 | [E07](E07-fight-pilots/) | Actor posture on new fighting sources; does temporal context help? | pilot 1 **fail**; DINOv2 readout **passes** a fresh audit (0.79); learned temporal **fail** |
-| [E08](E08-encoder-comparison/) | DINOv2 vs Laya (SmolVLM) vs Qwen3.8 towers under identical inputs | no universal winner; Laya's tower trails on posture; fusion hurts contact |
+| [E08](E08-encoder-comparison/) | DINOv2 vs Laya (SmolVLM) vs Qwen3.8 towers under identical inputs | no universal winner; Laya's tower trails on posture |
 
 Not run (prepared or partial):
 - an ownership training-size curve (32 / 96 / 288 photos): data prepared, no run;
