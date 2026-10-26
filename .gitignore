@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.npz
+*.npy
+*.pt
+*.ckpt
+*.safetensors
+data/
+models/
+outputs/
+.venv*/

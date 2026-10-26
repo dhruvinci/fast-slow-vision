@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it."
+title: "Fast and slow vision: testing a compact vision-language model as a fast describer of people (Human State v0)"
+authors:
+  - family-names: Chakravarthi
+    given-names: Dhruva
+year: 2026
+repository-code: "https://github.com/dhruvinci/fast-slow-vision"
+license: MIT
+keywords:
+  - vision-language models
+  - human pose
+  - limb ownership
+  - grounding
+  - negative results

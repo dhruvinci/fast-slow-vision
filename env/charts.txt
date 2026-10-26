@@ -1,0 +1,4 @@
+# Charts and the demo figure (src/make_charts.py, src/make_demo_figure.py)
+matplotlib==3.11.2
+numpy==2.5.2
+pillow==12.3.0
